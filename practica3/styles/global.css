@@ -1,0 +1,17 @@
+:root {
+    --rojo: #EB5757;
+    --azul: #2F80ED;
+    --rosita: #c9ada1;
+    --white: #fff;
+    --gris: #dadada;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}

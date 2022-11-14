@@ -1,0 +1,180 @@
+.headerGroc {
+    background-color: #F3B63A;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.holaNom {
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.botoEditar {
+    margin-right: 10px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.col1 {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c9ada1;
+
+}
+
+/* color blanc del cv */
+.todo {
+    background-color: var(--rosita);
+    margin: 20px 0 10px 0;
+}
+
+.container {
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch
+}
+
+/* Datos personales, habilidades...*/
+.titulo {
+    font-weight: bold;
+    border-bottom: 2px #dadada solid;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 6px;
+}
+
+/* Perfil, experiencia de trabajo, educación*/
+.col2 {
+    margin-top: 15px;
+    line-height: 1.25em;
+}
+
+.col2 ul {
+    margin-left: -31px;
+}
+
+/* Imatge */
+.img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 5px solid #dadada;
+    align-self: center;
+    margin: -85px 0px 25px 40px;
+}
+
+/*Puntitos de lista quitados*/
+.col1 ul {
+    margin-left: -31px;
+}
+
+.item_lista {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 4px;
+}
+
+.explicacion {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/*Iconos CV*/
+.fa-solid {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    text-decoration: none;
+}
+
+/*Barra de progressos*/
+.progress-bar {
+    background-color: #dadada;
+    justify-content: center;
+    align-items: center;
+}
+
+/* color gris del cv */
+.header {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    background-color: var(--gris);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.barraProgreso {
+    display: flex;
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.subtitulo {
+    color: #dadada;
+}
+
+.universidad {
+    color: #dadada;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row2>* {
+        width: 100%;
+    }
+
+    .barraProgreso {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.alignRow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
